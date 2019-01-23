@@ -23,8 +23,6 @@ docker-build-commit-non-master-branches:
 
 docker-build-commit-master-branch:
   stage: package
-  tags:
-    - oagdev
   only:
     - master
   script:
